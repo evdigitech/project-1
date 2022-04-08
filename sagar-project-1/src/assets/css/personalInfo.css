@@ -1,0 +1,21 @@
+.k-input:not(:-webkit-autofill) {
+  animation-name: autoFillEnd;
+  background: #f8f8fc;
+  width: 10rem;
+  color: #93939d;
+
+  border: none;
+}
+.k-icon-button.k-button-md > .k-button-icon {
+  min-width: 20.0000000004px;
+  min-height: 20.0000000004px;
+  width: 16px;
+  color: #0f69af;
+  padding-left: 9px;
+
+}
+.k-input-solid .k-input-button,
+.k-input-solid .k-input-spinner .k-spinner-increase {
+  background: none;
+  background: white;
+}

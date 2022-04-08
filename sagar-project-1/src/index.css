@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+.fieldcss{
+  @apply  bg-[#F8F8FC]  w-[100%] h-10 rounded-md focus:outline-none text-black;
+}
+.textblue{
+ @apply text-[#0F69AF]
+  }
+.checkbox{
+  @apply sm:w-6 sm:h-6 h-5 w-5  rounded-md accent-[#0F69AF]
+}
+
+  .bgblue{
+    @apply bg-[#0F69AF]
+     }
+    
+ .textrequired{
+   @apply text-[#E61E50]
+ }    
+
+ .profileBorder{
+   @apply mb-8 border-4 border-[#F8F8FC] rounded-xl p-4
+ }
+.profileHeading{
+  @apply text-black font-black mb-5 text-2xl mt-5;
+}
+.profileGrid{
+   @apply  grid md:grid-cols-3 grid-cols-1 gap-x-8  
+}
+.radio{
+  @apply h-6 w-6 mr-1.5 focus:border-none border-4 border-[#DADADA] text-blue-600
+  
+}
+
+
+
+
+@tailwind utilities;
+
+@font-face {
+  font-family:'Lato', sans-serif;
+  src: url("./assets/fonts/Lato-Regular.ttf");
+}
+@layer base {
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+
+body {
+  
+
+    margin: 0; 
+    font-family:'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+hr{
+  color : #E9E9ED;
+}
